@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width initial-scale = 1.0">
+        <link rel="stylesheet" href="website-project.css">
+    </head>
+    <body>
+        <div class="container">
+            <!--Navbar-->
+            <div class="open-navbar-icon navbar-icon center">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="navbar-wrapper">
+                <nav class="navbar">
+                    <div class="close-navbar-icon navbar-icon center">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                    </div>
+                    <div class="nav-list">
+                        <a href="#Homepage" class="nav-link1 nav-link center">Home</a>
+                        <a href="#about-me" class="nav-link2 nav-link center">About Me</a>
+                        <a href="#quotes" class="nav-link3 nav-link center">Quotes</a>
+                        <a href="#games" class="nav-link4 nav-link center">Games</a>
+                        <a href="#contact" class="nav-link5 nav-link center">Contact</a>
+                    </div>
+                </nav>
+            </div>
+            <!-- End of Navbar-->
+            <!--hearder (Home page)-->
+            <header class="header center" id="Homepage">
+                <div class="header-text">
+                    <h1 class="heading">welcome to my website</h1>
+                    <p class="header-paragraph">excellent mind, lovely face, sweet voice, beautiful eyes, perfect personality, happiness attitude - this is me.</p>
+                </div>
+                <img src="hot-air-ballon.png" alt="header-image" class="header-image"> 
+                <div class="logo">
+                    <h1>
+                        <span class="center">c</span>
+                        <span class="center">h</span>
+                        <span class="center">i</span>
+                        <span class="center">l</span>
+                        <span class="center">l</span>
+                        <span class="center">y</span>
+                    </h1>
+                </div>
+            </header>
+            <!--End of hearder (Home page)-->
+
+            <!--About me-->
+            <section class="section1" id="about-me">
+                <div class="about-me-wrapper">
+                    <h1 class="about-me-heading">About me</h1>
+                    <div class="about-me-image-wrapper">
+                        <img src="about-image.jpg" alt="about-me-image" class="about-me-image">
+                        <p class="image-text">chuma, chibueze charles</p>
+                    </div>
+                    <div class="about-me">
+                        <p class="about-me-text">
+                            I am Chuma, Chibueze Charles, a graduate of Electrical Engineering from the University of Nigeria, Nsukka.<br>
+                            I am a self motivated and goal driven individual who thrives on succeeding in challenging situations. I am passionate about
+                            career development opportunities and welcome every opportunity to take my capabilities to a higher level. I am result driven 
+                            with a good work ethic, ability to learn, deploy new tools to operations and a dedicated team player. Ability to meet deadlines and targets.<br>
+                            
+                            I am an Electrical Engineer, a Front-end Wed Developer and a Graphic Designer.<br>  Apart from Engineering and Technology, i love Arts and Music.<br>
+                    
+                            I have my Computer/IT Proficiency in HTML5, CSS3, JavaScript, jQUERY, Python programming Language, Graphic Design(using
+                            illustrator and photoshop), AUTOCAD, MATLAB and Microsoft Office Suite(Word, Powerpoint and Excel).
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- End of About me-->
+
+            <!--Favorite Quotes-->
+            <section class="fav-quotes" id="quotes">
+                <h1 class="quote-heading">favorite quotes</h1>
+                <div class="video-container">
+                    <video class="bg-video" autoplay muted loop>
+                        <source src="quotes-bg-video.mp4" type="video/mp4"/> 
+                    </video>
+                </div>
+                <div class="quote-wrapper center">
+                    <div class="quotes-bg">
+                        <div class="quotes">
+                            <img src="quotes-image.jpg" alt="quotes-image" class="quotes-image">
+                            <div class="quote-text">
+                                <p class="quote-paragraph">You have to take the good with the bad, smile when you are sad, love what you have got and
+                                    remember what you had, always forgive and always forget, learn from your mistakes but never regret, people change, things go wrong,
+                                    just remember, life goes on.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quotes-bg">
+                        <div class="quotes">
+                            <img src="quotes-image.jpg" alt="quotes-image" class="quotes-image">
+                            <div class="quote-text">
+                                <p class="quote-paragraph">The ultimate measure of a man is not where he stands in moments of comfort, but
+                                    where he stands at times of challenges.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Favorite Quotes-->
+
+            <!-- Games-->
+            <section class="games" id="games">
+                <h1 class="game-heading">Games</h1>
+                <div class="canvas-wrapper">
+                    <canvas id="myCanvas" width="350" height="250"></canvas>
+                </div>
+                <h3 class="game-choice">Please carefully choose the game you wish to play</h3>
+                <div class="game-wrapper">
+                    <a href ="guess-game.html" class="game-text" target="_blank">click me to play a guess game</a>
+                    <a href = "mind-game.html" class="game-text" target="_blank">click me to play a mind game</a>
+                </div>
+            </section>
+            <!-- End of Games-->
+
+            <!--Contact-->
+            <section class="contact" id="contact">
+                <div class="change-colors">
+                    <h1 class="contact-heading">Contact Me</h1>
+                <form class="contact-form center">
+                    <div class="input-group">
+                        <label>Full Name *</label>
+                        <input type="text" class="contact-input" id="input1" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="input-groups">
+                        <div class="input-group">
+                            <label>Email *</label>
+                            <input type="email" class="contact-input" id="input2" placeholder="Enter Your Email" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Phone *</label>
+                            <input type="text" class="contact-input" id="input3" placeholder="Enter Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label>Message </label>
+                        <textarea class="form-textarea" id="input4" placeholder="Your Message Here..."></textarea>
+                    </div>
+                    <input type="submit" value="Submit" class="form-btn">
+                </form>
+                </div>
+                </div>
+            </section>
+            <!-- End of Contact-->
+
+            <!-- Footer-->
+            <footer class="footer">
+                <div class="footer-list">
+                    <a href="#Homepage" class="footer-link">Home</a>
+                    <a href="#about-me" class="footer-link">About Me</a>
+                    <a href="#quotes" class="footer-link">Quotes</a>
+                    <a href="#games" class="footer-link">Games</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div> 
+                <div class="icons-wrapper center">
+                    <div class="gmail">
+                        <img src="gmail-icon.png" alt="gmail-icon"  class="gmail-icon image-icon">
+                        <span class="gmail-text">chibueze2805@gmail.com</span>
+                    </div>
+                    <div class="linkedin">
+                        <img src="linkedin-icon.png" alt="linkedin-icon" class="linkedin-icon image-icon">
+                        <span class="linkedin-text">chuma chibueze</span>
+                    </div>
+                    <div class="linkedin">
+                        <img src="github-icon.png" alt="github-icon" class="github-icon image-icon">
+                        <span class="github-text">chuma6619</span>
+                    </div>
+                </div>
+                <p class="footer-paragraph">
+                    Copyright &copy; chillycharles All Rights Reserved
+                </p>
+            </footer>
+            <!-- End of Footer-->
+        </div>
+        <script src="website-project.js"></script>
+    </body>
+</html>

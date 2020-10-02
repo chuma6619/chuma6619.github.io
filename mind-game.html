@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Mind Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width initial-scale = 1.0">
+        <link rel="stylesheet" href="mind-game.css">
+    </head>
+    <body>
+        <section class="mind-game-wrapper">
+            <div class="audio-container">
+                <audio  autoplay loop class="bg-audio">
+                    <source src="Yanni-Voyage.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <h1 class="mind-game-heading"> Simple Mind Game</h1>
+
+            <div class="instruction">
+                <h3 class="instruction-heading">Instruction:</h3>
+                <p class="instruction-text">
+                    This mind game requires you to carefully follow the steps, <br> then at the end, the system will generate the 
+                    answer <br> when you click on the answer button.<br> GOOD LUCK!!!
+                </p>
+            </div>
+            <input type="submit" id="start-game" class="start-game" value="click me to start">
+            <div id="messages">
+                <p id="game-steps"></p>
+            </div>
+        </section>
+        <script src="mind-game.js"></script>
+    </body>
+</html>
