@@ -78,3 +78,24 @@
     text-transform: uppercase;
     font-family: cursive;
 }
+
+@media (max-width:450px){
+    .guess-game-heading{
+        font-size: 1.2rem;
+    }
+
+    .instruction-head{
+        font-size: 1.1rem;
+    }
+    
+    .instruction-text{
+        line-height: 2rem;
+        font-size: 1rem;
+        max-width: 30rem;
+    }
+
+    #messages{
+        font-size: 1rem;
+        max-width: 25rem;
+    }
+}

@@ -695,7 +695,7 @@ html{
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 800px){
     .quotes-bg{
         width: 100%;
     }
@@ -720,7 +720,7 @@ html{
 
 }
 
-@media (max-width: 800px){
+@media (max-width: 700px){
 
     .container{
         margin: 0;
@@ -1030,4 +1030,144 @@ html{
     }
 }
 
+@media (max-width: 400px){
+    .heading{
+        font-size: 2rem;
+    }
+
+    .header-paragraph{
+        font-size: 1rem;
+        font-weight: 300;
+        max-width: 48rem;
+        min-width: 25rem;
+    }
+
+    .about-me-image-wrapper{
+        width:25rem;
+    }
+
+    .about-me-text{
+        padding: 2.5rem;
+        font-size: 1.3rem;
+    }
+    .quotes-image{
+        margin-right: 0;
+        min-width: 13rem;
+        height: 13rem;
+    }
+
+    .quote-paragraph{
+        max-width: 20rem;
+    }
+
+    .game-choice{
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 1.2rem;
+        margin: 1.5rem;
+    }
+
+    .game-text{
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .contact-form{
+        width: 35rem;
+    }
+
+    .input-groups .input-group{
+        width:45.5%
+    }
+
+   .input-group input, .input-group textarea{
+         padding: 2.5rem 1rem 1rem 1rem;
+         font-size: 1.1rem;
+   }
+
+   .input-group label{
+    font-size: 1rem;
+
+}
+
+.form-btn{
+    font-size: 1.3rem;
+}
+
+.icons-wrapper{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.1rem;
+}
+
+.image-icon{
+    max-width: 10%;
+}
+
+.footer-paragraph{
+    font-size: 1.3rem;
+}
+
+@media (max-width: 350px){
+    .quotes-image{
+        margin-right: 0;
+        min-width: 11rem;
+        height: 11rem;
+    }
+
+    .quote-paragraph{
+        max-width: 15rem;
+    }
+
+    .game-choice{
+        font-size: 1.3rem;
+        font-weight: 600;
+        padding: 1.1rem;
+        margin: 1.5rem;
+    }
+
+    .game-text{
+        margin: 0.8rem;
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .contact-form{
+        width: 28rem;
+    }
+
+    .input-groups .input-group{
+        width:43.5%
+    }
+
+   .input-group input, .input-group textarea{
+         padding: 2.5rem 1rem 1rem 1rem;
+         font-size: 1rem;
+   }
+
+   .input-group label{
+    font-size: 0.9rem;
+
+}
+
+.form-btn{
+    font-size: 1.1rem;
+}
+
+.icons-wrapper{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1.2rem;
+}
+
+.image-icon{
+    max-width: 10%;
+}
+
+.footer-paragraph{
+    font-size: 1.2rem;
+}
+
+}
 /* End of Responsiveness to all screen sizes */
